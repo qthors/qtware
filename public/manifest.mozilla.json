@@ -1,0 +1,25 @@
+{
+  "name": "Qtware Token Wallet",
+  "description": "Qtware Wallet",
+  "version": "0.0.0.1",
+  "version_name": "0.0.0-alpha r1",
+  "manifest_version": 2,
+  "icons": { 
+    "16": "qtw-logo-16.png",
+    "24": "qtw-logo-24.png",
+    "32": "qtw-logo-32.png",
+    "64": "qtw-logo-64.png",
+    "128": "qtw-logo-128.png",
+    "192": "qtw-logo-192.png",
+    "256": "qtw-logo-256.png",
+    "512": "qtw-logo-512.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "logo128.png",
+      "256": "logo256.png",
+      "512": "logo512.png"
+    }
+  }
+}

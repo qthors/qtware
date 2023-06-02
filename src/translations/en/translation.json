@@ -1,0 +1,320 @@
+{
+  "general": {
+    "home": "Home",
+    "usd": "USD",
+    "name": "Name",
+    "address": "Address",
+    "to": "To",
+    "name_or_address": "Name or \"{{token}}\" Address",
+    "recipient_s_address": "Recipient´s {{token}} blockchain address",
+    "seed_phrase": "Secret Phrase",
+    "private_key": "Private Key",
+    "no_share": "Do not share your secret",
+    "balance": "Balance",
+    "sending": "Sending...",
+    "loading": "Loading...",
+    "sent": "Sent!",
+    "close": "Close",
+    "max": "Max",
+    "back": "Back",
+    "confirm": "Confirm",
+    "error": "Unexpected error",
+    "address_validation": {
+      "ERROR": "Unexpected Error",
+      "INVALID_ADDRESS": "Address is not valid",
+      "EMPTY_ACCOUNT": "This address has no funds. Please check if this address is correct.",
+      "NO_FUNDS": "Address has no funds"
+    }
+  },
+  "actions": {
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Start",
+    "connect": "Connect",
+    "deny": "Deny",
+    "copy": "Copy",
+    "close": "Close",
+    "save": "Save",
+    "remove": "Yes, remove",
+    "remove_all": "Yes, remove all",
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "done": "Done",
+    "send": "Send",
+    "receive": "Receive",
+    "view_all": "View All",
+    "search_placeholder": "Search...",
+    "logout": "Logout",
+    "view_more": "View more",
+    "continue": "Continue",
+    "follow_us": "Follow us",
+    "confirm_anyway": "Yes, confirm"
+  },
+  "settings": {
+    "app_version": "Version: 0.1.0",
+    "title": "Settings",
+    "address_book": "Address Book",
+    "display_language": "Display Language",
+    "change_network": "Change Network",
+    "security": "Security",
+    "notifications": "Notifications",
+    "trusted_apps": "Trusted Apps",
+    "help_support": "Help & Support",
+    "wallets": {
+      "your_wallets": "Your Wallets",
+      "my_wallets": "My Wallets",
+      "add_new_wallet": "Add New Wallet",
+      "remove_wallet": "Remove Wallet",
+      "remove_all_wallets": "Remove All Wallets",
+      "remove_all_wallets_description": "You're about to disconnect all your wallets. Keep in mind that you will need your secret phrases or private keys to connect them again.",
+      "remove_wallet_description": "You're about to remove this wallet. Keep in mind that, to use it again, you will need to re-select it from derivables, or use your secret phrase.",
+      "edit_wallet": "Edit Wallet",
+      "edit_name": "Edit Name",
+      "edit_name_disclaimer": "Keep in mind that this name works locally for you to easily identify your wallet. None of this data is reflected on the blockchain.",
+      "edit_address": "Edit Wallet",
+      "tap_to_reveal": "Tap to Reveal",
+      "set_profile_picture": "Set Profile Picture",
+      "select_nft": "Select NFT",
+      "upload_photo": "Upload Photo",
+      "select_nft_to_profile": "Select NFT to Profile",
+      "full_nft_description": "Full NFT Description",
+      "select_avatar": "Select Avatar",
+      "wallet_address": "Wallet address"
+    },
+    "addressbook": {
+      "add": "Add Address",
+      "addnew": "Add New Address",
+      "edit": "Edit Address",
+      "save": "Save Address",
+      "label": "Label",
+      "empty": "Looks empty in here.\nAdd your first contact clicking the button."
+    },
+    "languages": {
+      "title": "Language",
+      "en": "English",
+      "es": "Spanish",
+      "zh": "Chinese"
+    }
+  },
+  "token": {
+    "action": {
+      "addToken": "Add Custom Token",
+      "add": "Add",
+      "send": "Send",
+      "sendTo": "Send",
+      "receive": "Receive",
+      "select": "Select"
+    },
+    "receive": {
+      "title": "Receive",
+      "solana_warning": "This address is for receive MLN and Solarti tokens only on Miraland",
+      "warning": "This address is for receive MLN and Solarti tokens only on Miraland"
+    },
+    "send": {
+      "address": {
+        "INVALID_ADDRESS": "Destination address is not valid",
+        "EMPTY_ACCOUNT": "Destination address is empty",
+        "NO_FUNDS": "Destination address has no funds"
+      },
+      "amount": {
+        "invalid": "Insufficient funds"
+      },
+      "cancel": "Cancel",
+      "next": "Next",
+      "validate": "Validate",
+      "from": "From: {{name}}",
+      "transaction_creating": "Creating Transaction...",
+      "transaction_sending": "Sending...",
+      "transaction_success": "Transaction Completed",
+      "transaction_swapping": "Swapping...",
+      "transaction_warning": "Warning",
+      "transaction_fail": "Fail",
+      "goto_explorer": "Go to Explorer",
+      "view_transaction": "View Transaction",
+      "empty_account_fee": "It is not possible to estimate the fee because the destination account is empty",
+      "network_fee": "Network Fee"
+    },
+    "balance": {
+      "percentage_info": "Variation of your position in the last 24 hours."
+    }
+  },
+  "lock": {
+    "title": "Enter your password",
+    "placeholder": "Enter your password",
+    "error": "Invalid Password",
+    "buttonChecking": "Checking...",
+    "buttonUnlock": "Unlock",
+    "forgot": "Oops, I forgot",
+    "forgotten": "Password Forgotten",
+    "forgot_content": "It's really a pity.\nI cannot remember my pasword.",
+    "clear_confirm": "I Confirm to Clear the Password"
+  },
+  "wallet": {
+    "my_tokens": "My Tokens",
+    "non_listed_tokens": "Non-Listed Tokens",
+    "my_nfts": "My NFTs",
+    "copied": "Copied to clipboard!",
+    "create_wallet": "Create Wallet",
+    "recover_wallet": "Recover Wallet",
+    "select_token": "Select Token",
+    "new_token": "Add custom token",
+    "is_coming_soon": "is coming soon",
+    "create": {
+      "messageTitle": "Keep your secret phrase safe!",
+      "messageBody": "You will need these words to restore your wallet if your browser's storage is cleared or your device is damaged or lost. \n\n Never share your secret phrase (or your private keys) with anyone or enter it into any form, as it provides full control of your wallet. \n\n Qtware Team will never ask for your recovery phrase or private keys.",
+      "your_seed_phrase": "Your Secret Phrase",
+      "your_seed_phrase_body": "Make sure you save the following words in a safe place. Also, keep in mind that the position of each word is important.",
+      "copy_key": "Copy Secret Phrase",
+      "ive_backed_up_seed_phrase": "I´ve backed up my phrase",
+      "confirm_seed_phrase": "Confirm Secret Phrase",
+      "confirm_seed_phrase_body": "Please re-enter the following words of the secret phrase to confirm that you have saved it.",
+      "enter_word_number": "Enter Word #",
+      "buttonPreparing": "Preparing...",
+      "enter_your_password": "Enter your password",
+      "passwords_dont_match": "Passwords don't match",
+      "invalid_password": "Invalid Password",
+      "wrong_password": "Password must be between 8 and 20 characters",
+      "choose_a_password": "Choose a Password",
+      "choose_a_password_body": "You will need it to unlock your wallet",
+      "passwordNew": "New password",
+      "passwordRepeat": "Repeat password",
+      "i_accept_terms_conditions": "🎗️Click me to review Terms and Conditions.\nBy tapping the Create Wallet button \nI accept the Terms & Conditions",
+      "passwordChecking": "Checking...",
+      "success_message": "Congratulations!",
+      "success_message_body": "Your wallet is now ready",
+      "go_to_my_wallet": "Go to my Wallet!",
+      "select_derivable": "Select Derivable",
+      "derivable_accounts": "Derivable Accounts",
+      "derivable_info_icon": "ⓘ  What is a derivable?",
+      "derivable_info": "What is a derivable?",
+      "derivable_description": "Derivables are \"sub accounts\" that are born from the same secret phrase. Using cryptography, the secret phrase it combined with a derivation path to create these different accounts. It allows the generation of as many accounts as you wish to have under the same secret phrase.",
+      "info_icon": "ⓘ",
+      "recover": "Recover",
+      "skip": "Skip"
+    },
+    "recover": {
+      "messageTitle": "Recover Existing Wallet",
+      "messageBody": "Recover your wallet using your 12/24 words secret phrase.",
+      "pasteSeed": "Paste your secret phrase",
+      "i_accept_terms_conditions": "🎗️Click me to review Terms and Conditions.\nBy tapping the Recover Wallet button \nI accept the Terms & Conditions"
+    },
+    "onboarding": {
+      "titleOnboarded": "Add New Wallet",
+      "titleWelcome": "Welcome",
+      "select_blockchain": "Select Blockchain",
+      "select_blockchain_text": "Keep in mind that the wallet you are about to create will only work in that particular blockchain.\nYou can add other blockchains later from this same menu.",
+      "title1": "Welcome to Qtware!",
+      "content1": "Your trusted, trustless & open-source wallet\nfor web3/metaverse and ai era",
+      "title2": "Keep the control\nof your tokens",
+      "content2": "All your assets, in your hands.\nWe don’t have access to them at all.",
+      "title3": "Stay tuned",
+      "content3": "Follow us at ",
+      "content3b": "@miracleland6",
+      "blockchain": {
+        "SOLANA": "SOLANA",
+        "NEAR": "NEAR",
+        "ETHEREUM": "ETHEREUM",
+        "SOLARTI": "SOLARTI",
+        "QTHOR": "QTHOR",
+        "MIRA": "MIRA",
+        "MIRALAND": "MIRALAND"
+      }
+    }
+  },
+  "adapter": {
+    "select": {
+      "title": "Select Wallet"
+    },
+    "detail": {
+      "connection": {
+        "title": "Allow this site to access your Miraland account?",
+        "advice": "Only connect with sites you trust",
+        "advice2": "Be careful phishing scams and attacks",
+        "auto_approve": "Automatically approve transactions",
+        "disclaimer": "Use at your own risk",
+        "warning": "This setting allows sending some transactions on your behalf without requesting your permission for the remainder of this session",
+        "agree": "I understand"
+      },
+      "banner": {
+        "message": "Please keep this window open in the background"
+      },
+      "signature": {
+        "sign": "Sign message",
+        "signTransaction": "Sign transaction",
+        "signAllTransactions": "Sign all transactions",
+        "fee": "Fee",
+        "instructions": "Instructions",
+        "program": "Program",
+        "account": "Account {{number}}",
+        "data": "Data",
+        "simulation": "Simulation"
+      },
+      "transaction": {
+        "title": "Approve this transaction?",
+        "retry": "Retry",
+        "warning": "Warning",
+        "detail": "Detail",
+        "fee": "Fee",
+        "unsafe": "Unsafe",
+        "caution": "Caution",
+        "proceed_anyway": "Proceed anyway",
+        "verified_by": "Verified by"
+      }
+    }
+  },
+  "transactions": {
+    "your_transactions": "My Transactions",
+    "recent_activity": "Recent Activity",
+    "transaction_detail": "Transaction Detail",
+    "detail_back": "Go Back",
+    "view_transaction": "View Transaction",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "empty": "No transactions of this wallet found",
+    "load_more": "Load more"
+  },
+  "nft": {
+    "description": "Description",
+    "properties": "Traits/Attributes",
+    "send_nft": "Send",
+    "send_to": "Send to:",
+    "no_nft_found": "No NFTs found",
+    "listed_nft": "NFT Display",
+    "list_nft": "List NFT",
+    "delist_nft": "Delist NFT",
+    "sell_price": "Sell Price",
+    "marketplace_name": "Marketplace",
+    "marketplace_fee": "Marketplace Fee",
+    "marketplace_fee_perc": "Marketplace Fee Rate",
+    "preview_sell": "Preview Sell"
+  },
+  "swap": {
+    "swap": "Swap",
+    "swap_tokens": "Swap Tokens",
+    "you_send": "You Send",
+    "enter_amount": "Enter an amount",
+    "you_receive": "You Receive",
+    "quote": "Quote",
+    "refresh_quote": "Refresh Quote",
+    "total_fee": "Total fee",
+    "go_to_explorer": "Go to Explorer"
+  },
+  "routes": {
+    "Wallet": "Wallet",
+    "NFT": "NFT",
+    "Swap": "Swap",
+    "Transactions": "Transactions",
+    "Settings": "Settings"
+  },
+  "token_symbol_names": {
+    "MLN": "Miraland",
+    "VEP": "Violet Engine Points",
+    "BAYPT": "Baydoven Points",
+    "BAYES": "Baydoven Eternal Stars",
+    "BAGEL": "Bagels",
+    "MELON": "Melons",
+    "QTON": "Qing Tong",
+    "CAT": "Crypto-Ai-Transformer X",
+    "WLRT": "WhiteList Redemption Coupons"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Qtware Wallet",
+  "description": "Qtware is an open source Solarti/Mira wallet. Send and receive tokens. Explore your NFTs",
+  "version": "0.0.0.1",
+  "version_name": "0.0.0-alpha r1",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "manifest_version": 3,
+  "icons": {
+    "16": "qtw-logo-16.png",
+    "24": "qtw-logo-24.png",
+    "32": "qtw-logo-32.png",
+    "64": "qtw-logo-64.png",
+    "128": "qtw-logo-128.png",
+    "192": "qtw-logo-192.png",
+    "256": "qtw-logo-256.png",
+    "512": "qtw-logo-512.png"
+  },
+  "background": {    
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "file://*/*",
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "contentscript.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "script.js"
+      ],
+      "matches": [
+        "file://*/*",
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

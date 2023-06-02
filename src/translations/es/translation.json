@@ -1,0 +1,230 @@
+{
+  "general": {
+    "home": "Inicio",
+    "usd": "USD",
+    "name": "Nombre",
+    "address": "Dirección",
+    "to": "Para",
+    "name_or_address": "Nombre o Dirección \"{{token}}\"",
+    "recipient_s_address": "Dirección \"{{token}}\" Destinatario",
+    "seed_phrase": "Secret Phrase",
+    "balance": "Balance",
+    "sending": "Enviando...",
+    "sent": "¡Enviado!"
+  },
+  "actions": {
+    "skip": "Omitir",
+    "next": "Siguiente",
+    "start": "Comenzar",
+    "connect": "Connect",
+    "deny": "Denegar",
+    "copy": "Copiar",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "remove": "Eliminar",
+    "remove_all": "Eliminar todas",
+    "accept": "Acepter",
+    "cancel": "Cancelar",
+    "done": "Done",
+    "send": "Enviar",
+    "receive": "Recibir",
+    "view_all": "Ver Todo",
+    "search_placeholder": "Buscar...",
+    "logout": "Cerrar Sesión",
+    "view_more": "Ver más",
+    "continue": "Cotinuar",
+    "follow_us": "Siguenos"
+  },
+  "settings": {
+    "title": "Configuración",
+    "address_book": "Contactos",
+    "display_language": "Idioma",
+    "change_network": "Cambiar Network",
+    "security": "Seguridad",
+    "notifications": "Notificaciones",
+    "trusted_apps": "Apps Autorizadas",
+    "help_support": "Ayuda & Soporte",
+    "wallets": {
+      "your_wallets": "Tus Wallets",
+      "my_wallets": "Mis Wallets",
+      "add_new_wallet": "Agregar Wallet",
+      "remove_wallet": "Remover Wallet",
+      "remove_all_wallets": "Remover Todas las Wallets",
+      "edit_wallet": "Edit Wallet",
+      "edit_name": "Edit Name",
+      "edit_name_disclaimer": "Ten en cuenta que el nombre funciona únicamente para identificar tu wallet localmente. Esta información no se guarda en el blockchain.",
+      "edit_address": "Edit Wallet",
+      "tap_to_reveal": "Tap to Reveal",
+      "set_profile_picture": "Set Profile Picture",
+      "select_nft": "Select NFT",
+      "upload_photo": "Upload Photo",
+      "select_nft_to_profile": "Select NFT to Profile",
+      "full_nft_description": "Full NFT Description",
+      "wallet_address": "Wallet info"
+    },
+    "addressbook": {
+      "add": "Add Address",
+      "addnew": "Add New Address",
+      "edit": "Edit Address",
+      "save": "Save Address",
+      "label": "Label"
+    },
+    "languages": {
+      "title": "Idioma",
+      "en": "Inglés",
+      "es": "Español"
+    }
+  },
+  "token": {
+    "action": {
+      "addToken": "Añadir Token",
+      "add": "Añadir",
+      "send": "Enviar",
+      "sendTo": "Enviar",
+      "receive": "Recibir",
+      "select": "Seleccionar"
+    },
+    "receive": {
+      "title": "Recibir"
+    },
+    "send": {
+      "address": {
+        "INVALID_ADDRESS": "La direccion destino no es valida",
+        "EMPTY_ACCOUNT": "La direccion destino esta vacia",
+        "NO_FUNDS": "La direccion destino no tiene fondos"
+      },
+      "amount": {
+        "invalid": "El monto debe ser un numero menor a {{max}}"
+      },
+      "next": "Next",
+      "validate": "Validate",
+      "from": "De: {{name}}",
+      "transaction_creating": "Creando Transacción...",
+      "transaction_sending": "Enviando...",
+      "transaction_success": "Transacción Exitosa",
+      "transaction_swapping": "Swapping...",
+      "transaction_warning": "Warning",
+      "transaction_fail": "Error",
+      "goto_explorer": "Ir al Explorer",
+      "view_transaction": "Ver Transacción"
+    }
+  },
+  "lock": {
+    "title": "Ingrese su contraseña",
+    "placeholder": "Ingrese su contraseña",
+    "error": "La constraseña es incorrecta",
+    "buttonChecking": "Validando...",
+    "buttonUnlock": "Desbloquear"
+  },
+  "wallet": {
+    "my_tokens": "Mis Tokens",
+    "non_listed_tokens": "Tokens no-listados",
+    "my_nfts": "Mis NFTs",
+    "copied": "Copiado al portapapeles!",
+    "create_wallet": "Crear Wallet",
+    "recover_wallet": "Recuperar Wallet",
+    "select_token": "Seleccionar Token",
+    "new_token": "Agregar token",
+    "is_coming_soon": "proximamente",
+    "create": {
+      "messageTitle": "Keep your secret safe!",
+      "messageBody": "You will need these words to restore your wallet if your browser's storage is cleared or your device is damaged or lost. \n\n Never share your secret phrase (or your private keys) with anyone or enter it into any form, as it provides full control of your wallet. \n\n Qtware Team will never ask for your recovery phrase or private keys.",
+      "your_seed_phrase": "Your Secret Phrase",
+      "your_seed_phrase_body": "Make sure you save the following words in a safe place. Also, keep in mind that the position of each word is important.",
+      "copy_key": "Copy Key",
+      "ive_backed_up_seed_phrase": "I´ve backed up secret phrase",
+      "confirm_seed_phrase": "Confirm Secret Phrase",
+      "confirm_seed_phrase_body": "Please re-enter the following words of the secret phrase to confirm that you have saved it.",
+      "enter_word_number": "Enter Word #",
+      "buttonPreparing": "Preparing...",
+      "enter_your_password": "Enter your password",
+      "passwords_dont_match": "Los passwords no coinciden",
+      "invalid_password": "Invalid Password",
+      "wrong_password": "Password must be between 8 and 20 characters",
+      "choose_a_password": "Choose a Password",
+      "choose_a_password_body": "You will need it to unlock your wallet",
+      "passwordNew": "New password",
+      "passwordRepeat": "Repeat password",
+      "i_accept_terms_conditions": "By tapping the Create Wallet button \nI accept the Terms & Conditions",
+      "passwordChecking": "Checking...",
+      "success_message": "Felicitaciones!",
+      "success_message_body": "Tu billetera ya está lista.",
+      "go_to_my_wallet": "Ir a mi billetera!",
+      "select_derivable": "Select Derivable",
+      "derivable_accounts": "Derivable Accounts",
+      "derivable_info_icon": "ⓘ  Qué es una cuenta derivable?",
+      "derivable_info": "Qué es una cuenta derivable?",
+      "derivable_description": "Las Derivables son \"sub cuentas\" que nacen del mismo secret phrase. Usando criptografía, se combina la secret phrase con un patrón de derivación que genera estas diferentes cuentas. Permite así la generación de tantas cuentas como se quieran crear bajo la misma secret phrase.",
+      "info_icon": "ⓘ",
+      "recover": "Recover",
+      "skip": "Omitir"
+    },
+    "recover": {
+      "messageTitle": "Recover Existing Wallet",
+      "messageBody": "Recover your wallet using your 24 words secret phrase.",
+      "pasteSeed": "Paster your secret phrase"
+    },
+    "onboarding": {
+      "titleOnboarded": "Nueva Wallet",
+      "titleWelcome": "Welcome",
+      "select_blockchain": "Elegir Blockchain",
+      "select_blockchain_text": "Ten en cuenta que la billetera que estás por crear funcionara únicamente en esta blockchain.\nPodrás agregar wallets de otras blockchains más tarde."
+    }
+  },
+  "adapter": {
+    "select": {
+      "title": "Seleccione Billetera"
+    },
+    "detail": {
+      "connection": {
+        "title": "¿Permitir que este sitio acceda a su cuenta de Solana?",
+        "advice": "Conéctese sólo con sitios de confianza",
+        "auto_approve": "Aprobar transacciones automáticamente",
+        "disclaimer": "Úselo bajo su propio riesgo",
+        "warning": "Esta configuración permite enviar algunas transacciones en su nombre sin solicitar su permiso por el resto de esta sesión",
+        "agree": "Entendido"
+      },
+      "banner": {
+        "message": "Mantenga esta ventana abierta en segundo plano"
+      },
+      "signature": {
+        "title": "Firmar transacción",
+        "sign": "Firmar mensaje",
+        "signTransaction": "Firmar transacción",
+        "signAllTransactions": "Firmar todas las transacciones",
+        "fee": "Tarifa",
+        "instructions": "Instrucciones",
+        "program": "Programa",
+        "account": "Cuenta {{number}}",
+        "data": "Datos",
+        "simulation": "Simulation"
+      }
+    }
+  },
+  "transactions": {
+    "your_transactions": "Transacciones",
+    "recent_activity": "Actividad Reciente",
+    "transaction_detail": "Detalle de la Transacción",
+    "view_transaction": "Ver Transacción",
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "empty": "No se encontraron transacciones"
+  },
+  "nft": {
+    "description": "Descripción",
+    "properties": "Propiedades",
+    "send_nft": "Enviar",
+    "send_to": "Enviar a:"
+  },
+  "swap": {
+    "swap": "Swap",
+    "swap_tokens": "Swap Tokens",
+    "you_send": "Pagas",
+    "enter_amount": "Ingresa un monto",
+    "you_receive": "Recibes",
+    "quote": "Cotizar",
+    "refresh_quote": "Refrescar Cotización",
+    "total_fee": "Fee total",
+    "go_to_explorer": "Go to Explorer"
+  }
+}

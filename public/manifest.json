@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.0.1",
+  "version_name": "0.0.0-alpha r1",
+  "short_name": "Qtware Wallet",
+  "name": "Qtware Token Wallet",
+  "icons": [
+    "qtw-logo-16.png",
+    "qtw-logo-24.png",
+    "qtw-logo-32.png",
+    "qtw-logo-64.png",
+    "qtw-logo-128.png",
+    "qtw-logo-192.png",
+    "qtw-logo-256.png",
+    "qtw-logo-512.png"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "logo128.png",
+      "256": "logo256.png",
+      "512": "logo512.png"
+    }
+  }
+}
