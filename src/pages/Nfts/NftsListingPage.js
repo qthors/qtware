@@ -225,6 +225,7 @@ const NftsListingPage = ({ params, t }) => {
                   image={MLN_ICON}
                   imageSize="xs"
                   onPress={() => {}}
+                  // eslint-disable-next-line react-native/no-inline-styles
                   buttonStyle={{ paddingRight: 6, paddingLeft: 6 }}
                   keyboardType="numeric"
                   nospace
@@ -256,6 +257,7 @@ const NftsListingPage = ({ params, t }) => {
             <View
               style={[
                 globalStyles.inlineWell,
+                // eslint-disable-next-line react-native/no-inline-styles
                 { paddingBottom: 0, marginBottom: 0 },
               ]}>
               <GlobalText type="caption" color="tertiary">
@@ -265,6 +267,7 @@ const NftsListingPage = ({ params, t }) => {
                 <View
                   style={[
                     globalStyles.inlineWell,
+                    // eslint-disable-next-line react-native/no-inline-styles
                     { paddingBottom: 0, marginBottom: 0 },
                   ]}>
                   <GlobalImage
@@ -362,6 +365,7 @@ const NftsListingPage = ({ params, t }) => {
                   <View
                     style={[
                       globalStyles.inlineWell,
+                      // eslint-disable-next-line react-native/no-inline-styles
                       { paddingBottom: 0, marginBottom: 0 },
                     ]}>
                     <GlobalText type="body1" nospace>
@@ -393,6 +397,7 @@ const NftsListingPage = ({ params, t }) => {
                   <View
                     style={[
                       globalStyles.inlineWell,
+                      // eslint-disable-next-line react-native/no-inline-styles
                       { paddingBottom: 0, marginBottom: 0 },
                     ]}>
                     <GlobalImage

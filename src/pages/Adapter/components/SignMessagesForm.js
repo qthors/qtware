@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+// /* eslint-disable no-undef */
 import React, { useCallback, useContext, useMemo } from 'react';
 
 import bs58 from 'bs58';

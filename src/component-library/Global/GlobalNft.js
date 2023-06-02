@@ -88,6 +88,7 @@ const GlobalNft = ({ nft, onClick = () => {}, t }) => (
                       source={IconSolana}
                       circle
                       size="xxs"
+                      // eslint-disable-next-line react-native/no-inline-styles
                       style={{ marginBottom: -3, marginLeft: 6 }}
                     />
                   </>

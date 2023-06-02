@@ -13,7 +13,7 @@ import GlobalText from '../../component-library/Global/GlobalText';
 import GlobalButton from '../../component-library/Global/GlobalButton';
 import GlobalPadding from '../../component-library/Global/GlobalPadding';
 import GlobalPageDot from '../../component-library/Global/GlobalPageDot';
-import GlobalDivider from '../../component-library/Global/GlobalDivider';
+// import GlobalDivider from '../../component-library/Global/GlobalDivider';
 import Logo from '../Onboarding/components/Logo';
 import useAnalyticsEventTracker from '../../hooks/useAnalyticsEventTracker';
 

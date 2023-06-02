@@ -36,6 +36,7 @@ const SimpleDialog = ({
               transparent
               icon={IconClose}
               onPress={onClose}
+              // eslint-disable-next-line react-native/no-inline-styles
               style={{
                 position: 'absolute',
                 bottom: -26,

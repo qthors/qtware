@@ -58,7 +58,7 @@ const GlobalCollapse = ({
   t,
 }) => {
   const [isCollapseOpen, setIsCollapseOpen] = useState(isOpen);
-  const toggleCollapse = t => setIsCollapseOpen(!isCollapseOpen);
+  const toggleCollapse = _t => setIsCollapseOpen(!isCollapseOpen);
 
   return (
     <>

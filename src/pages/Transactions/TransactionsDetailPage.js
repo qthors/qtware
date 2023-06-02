@@ -85,8 +85,9 @@ const styles = StyleSheet.create({
 
 const TransactionsDetailPage = ({ t, params }) => {
   const navigate = useNavigation();
-  const [{ activeWallet, wallets }, { changeActiveWallet }] =
-    useContext(AppContext);
+  // const [{ activeWallet, wallets }, { changeActiveWallet }] =
+  //   useContext(AppContext); // MI, vanilla
+  const [{ activeWallet }] = useContext(AppContext);
   const [transactionDetail, setTransactionDetail] = useState({});
   const [loaded, setLoaded] = useState(false);
   const [showToast, setShowToast] = useState(false);

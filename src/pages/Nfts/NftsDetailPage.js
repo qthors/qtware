@@ -103,6 +103,7 @@ const NftsDetailPage = ({ params, t }) => {
         <GlobalImage
           source={IconHyperspaceWhite}
           size="xxs"
+          // eslint-disable-next-line react-native/no-inline-styles
           style={{ marginBottom: -2 }}
         />
       </>
@@ -113,6 +114,7 @@ const NftsDetailPage = ({ params, t }) => {
         <GlobalImage
           source={IconHyperspaceWhite}
           size="xxs"
+          // eslint-disable-next-line react-native/no-inline-styles
           style={{ marginBottom: -2 }}
         />
       </>

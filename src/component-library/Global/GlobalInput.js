@@ -116,7 +116,7 @@ const GlobalInput = ({
         ? setValue(
             event.nativeEvent.text
               .replace(',', '.')
-              .replace(/[^\d\.]/g, '')
+              .replace(/[^\d.]/g, '') // MI, vanilla: .replace(/[^\d\.]/g, '')
               .replace(/\./, 'x')
               .replace(/\./g, '')
               .replace(/x/, '.'),

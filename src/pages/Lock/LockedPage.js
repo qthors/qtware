@@ -90,6 +90,7 @@ const LockedPage = ({ t }) => {
         <GlobalPadding size="lg" />
         <GlobalButton
           type="text"
+          // eslint-disable-next-line react-native/no-inline-styles
           textStyle={{
             fontFamily: theme.fonts.dmSansMedium,
             textTransform: 'none',

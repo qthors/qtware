@@ -220,6 +220,7 @@ const CardButton = ({
         <GlobalImage
           source={IconChevronRight}
           size="sm"
+          // eslint-disable-next-line react-native/no-inline-styles
           style={{ opacity: 0.5 }}
         />
       )}
@@ -228,6 +229,7 @@ const CardButton = ({
         <GlobalImage
           source={IconExpandMore}
           size="sm"
+          // eslint-disable-next-line react-native/no-inline-styles
           style={{ opacity: 0.5 }}
         />
       )}

@@ -21,7 +21,8 @@ import GlobalPadding from '../../component-library/Global/GlobalPadding';
 const TokenAddPage = ({ params, t }) => {
   const navigate = useNavigation();
   const [loaded, setloaded] = useState(false);
-  const [token, setToken] = useState({});
+  // const [token, setToken] = useState({});
+  const [, setToken] = useState({});
 
   const [{ activeWallet }] = useContext(AppContext);
 

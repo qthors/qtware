@@ -1,7 +1,7 @@
 {
   "name": "qtware",
   "version": "0.5.0",
-  "description": "Derived from and credit to Salmon wallet",
+  "description": "Forked/Derived from and credit to Salmon wallet",
   "author": "",
   "contributors": [
     {
@@ -19,7 +19,8 @@
       "url": "https://miraland.top/"
     }
   ],
-  "license": "(MIT OR Apache-2.0)",
+  "private": true,
+  "license": "GPL-3.0-only",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
