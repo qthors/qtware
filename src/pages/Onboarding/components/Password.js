@@ -45,7 +45,8 @@ const Password = ({
   const onPressTerms = () => {
     // Linking.openURL(`https://salmonwallet.io/tc.html`);
     // Linking.openURL(`https://solarti.top/tc.html`);
-    Linking.openURL(`https://www.arcaps.com/shared/qtware/tc.html`);
+    // Linking.openURL(`https://www.arcaps.com/shared/qtware/tc.html`);
+    Linking.openURL(`https://qthors.github.io/qtware-eula/`);
   };
 
   const onContinue = async () => {

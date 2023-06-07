@@ -3,6 +3,7 @@
     "home": "首页",
     "usd": "USD",
     "name": "姓名",
+    "nickname": "昵称",
     "address": "地址",
     "to": "到",
     "name_or_address": "姓名或\"{{token}}\"地址",
@@ -35,8 +36,8 @@
     "copy": "拷贝",
     "close": "关闭",
     "save": "保存",
-    "remove": "是的, 删除",
-    "remove_all": "是的, 删除所有",
+    "remove": "是的, 移除",
+    "remove_all": "是的, 移除所有",
     "accept": "接受",
     "cancel": "取消",
     "done": "完成",
@@ -61,17 +62,17 @@
     "trusted_apps": "信任的App",
     "help_support": "帮助和支持",
     "wallets": {
-      "your_wallets": "您的钱包",
-      "my_wallets": "我的钱包",
-      "add_new_wallet": "添加新钱包",
-      "remove_wallet": "移除钱包",
-      "remove_all_wallets": "移除所有钱包",
-      "remove_all_wallets_description": "即将断开与您所有钱包的连接。请务必谨记您的秘密短语或私钥，因为再次连接钱包时需要用到。",
-      "remove_wallet_description": "即将断开与您这个钱包的连接。谨记当您再次使用此钱包时，需要从派生钱包列表中选择本钱包，或者通过您的秘密短语恢复该钱包。",
-      "edit_wallet": "编辑钱包",
-      "edit_name": "编辑姓名",
-      "edit_name_disclaimer": "请务必谨记此姓名只是为了在本地方便您记忆识别不同钱包之用。本姓名并不存储或反应在区块链上。",
-      "edit_address": "编辑钱包地址",
+      "your_wallets": "您的多宝箱",
+      "my_wallets": "我的多宝箱",
+      "add_new_wallet": "添加新多宝箱",
+      "remove_wallet": "移除多宝箱",
+      "remove_all_wallets": "移除所有多宝箱",
+      "remove_all_wallets_description": "即将移除与您所有多宝箱的连接。请务必谨记，您需要相应的秘密短语或私钥才能再次连接这些多宝箱。",
+      "remove_wallet_description": "即将移除当前多宝箱。谨记当您想要再次使用此多宝箱时，需要通过您的秘密短语恢复本多宝箱，或者从派生多宝箱列表中选择本多宝箱。",
+      "edit_wallet": "编辑多宝箱",
+      "edit_name": "编辑多宝箱名字",
+      "edit_name_disclaimer": "请务必谨记此姓名只是为了在本地方便您记忆识别不同多宝箱之用。本姓名并不存储或反应在区块链上。",
+      "edit_address": "编辑多宝箱地址",
       "tap_to_reveal": "点击展示内容",
       "set_profile_picture": "设置档案资料图片",
       "select_nft": "选择数字藏品",
@@ -79,7 +80,9 @@
       "select_nft_to_profile": "为档案资料选择数字藏品",
       "full_nft_description": "完整的数字藏品描述",
       "select_avatar": "选择头像",
-      "wallet_address": "钱包地址"
+      "wallet_name": "多宝箱昵称",
+      "wallet_address": "多宝箱地址",
+      "are_you_sure": "想清楚了？"
     },
     "addressbook": {
       "add": "添加地址",
@@ -154,14 +157,14 @@
     "non_listed_tokens": "非挂牌交易web3数字权证",
     "my_nfts": "我的数字藏品",
     "copied": "已拷贝到粘贴板！",
-    "create_wallet": "创建钱包",
-    "recover_wallet": "恢复钱包",
+    "create_wallet": "打造新的多宝箱",
+    "recover_wallet": "恢复先前多宝箱",
     "select_token": "选择web3数字权证类型",
     "new_token": "添加新web3数字权证类型",
     "is_coming_soon": "敬请期待",
     "create": {
       "messageTitle": "请安全保存您的秘密短语！",
-      "messageBody": "在浏览器存储的数据被清除或者设备遭到破坏或丢失的情况下，您需要这些短语用来恢复钱包。\n\n 永远不要将您的秘密短语（或私钥）透露分享给任何人，因为通过这些短语可以完全控制您的钱包。\n\n Qtware团队从来不会向您索取恢复短语或私钥。",
+      "messageBody": "在浏览器存储的数据被清除或者设备遭到破坏或丢失的情况下，您需要这些短语来恢复多宝箱。\n\n 永远不要将您的秘密短语（或私钥）透露分享给任何人，因为通过这些短语可以完全控制您的多宝箱。\n\n Qtware多宝箱团队不会向您索要恢复短语或私钥。",
       "your_seed_phrase": "您的秘密短语",
       "your_seed_phrase_body": "请确保您将如下单词保存在安全的地方。请注意每个单词的位置顺序是非常重要的。",
       "copy_key": "拷贝秘密短语",
@@ -175,14 +178,14 @@
       "invalid_password": "无效的密码",
       "wrong_password": "密码必须是8到20个字符",
       "choose_a_password": "选择密码",
-      "choose_a_password_body": "您将需要它来解锁钱包",
+      "choose_a_password_body": "您将需要它来解锁多宝箱",
       "passwordNew": "新密码",
       "passwordRepeat": "重输密码",
-      "i_accept_terms_conditions": "🎗️点击我查看协议文本\n通过点击【创建钱包】按钮\n我接受《本协议》",
+      "i_accept_terms_conditions": "🎗️点击我查看协议文本\n通过点击【打造新的多宝箱】按钮\n我接受《本协议》",
       "passwordChecking": "检查中...",
       "success_message": "恭喜祝贺！",
-      "success_message_body": "您的钱包准备好了",
-      "go_to_my_wallet": "打开我的钱包！",
+      "success_message_body": "您的多宝箱准备好了",
+      "go_to_my_wallet": "打开我的多宝箱！",
       "select_derivable": "从派生项列表中选择",
       "derivable_accounts": "派生账户",
       "derivable_info_icon": "ⓘ  什么是派生项？",
@@ -193,20 +196,20 @@
       "skip": "跳过"
     },
     "recover": {
-      "messageTitle": "恢复已有钱包",
-      "messageBody": "使用12到24个单词的秘密短语恢复您的钱包",
+      "messageTitle": "恢复先前多宝箱",
+      "messageBody": "使用12到24个单词的秘密短语恢复您的多宝箱",
       "pasteSeed": "粘贴您的秘密短语",
-      "i_accept_terms_conditions": "🎗️点击我查看协议文本\n通过点击【恢复钱包】按钮\n我接受《本协议》"
+      "i_accept_terms_conditions": "🎗️点击我查看《用户协议》\n通过点击【恢复先前多宝箱】按钮\n我接受《用户协议》"
     },
     "onboarding": {
-      "titleOnboarded": "添加新钱包",
+      "titleOnboarded": "添加新多宝箱",
       "titleWelcome": "欢迎",
       "select_blockchain": "选择区块链",
-      "select_blockchain_text": "请务必谨记您即将创建的钱包只能在特定的区块链上生效使用，\n将来您或许可以在此添加或创建其他区块链的钱包。",
-      "title1": "欢迎使用Qtware!",
-      "content1": "无须信任但值得信赖且开源的钱包 \n为Web3/元宇宙和AI时代而生",
+      "select_blockchain_text": "请务必谨记您即将创建的多宝箱只能在特定的区块链上生效使用，\n将来您或许可以在此添加或创建其他区块链的多宝箱。",
+      "title1": "欢迎使用Qtware多宝箱!",
+      "content1": "开源值得信赖的身份与价值载体\n为Web3/元宇宙和AI时代而生",
       "title2": "数字资产\n尽在掌握",
-      "content2": "您的所有虚拟资产自己掌控\n我们无权访问存取",
+      "content2": "您自己掌控所有虚拟资产\n我们无权对其存取访问",
       "title3": "敬请关注",
       "content3": "请关注我们",
       "content3b": "@miracleland6",
@@ -223,11 +226,11 @@
   },
   "adapter": {
     "select": {
-      "title": "选择钱包"
+      "title": "选择多宝箱"
     },
     "detail": {
       "connection": {
-        "title": "允许此站点访问您的Miraland账户？",
+        "title": "确认提醒：允许本站点访问您的米兰链账户？",
         "advice": "只连接您信任的站点",
         "advice2": "谨防钓鱼欺诈和攻击",
         "auto_approve": "自动批准同意交易",
@@ -250,7 +253,7 @@
         "simulation": "模拟"
       },
       "transaction": {
-        "title": "批准此交易?",
+        "title": "签名确认本次交易吗?",
         "retry": "重试",
         "warning": "警示",
         "detail": "明细",
@@ -270,7 +273,7 @@
     "view_transaction": "查看交易",
     "today": "今天",
     "yesterday": "昨天",
-    "empty": "未发现本钱包参与的交易记录",
+    "empty": "未发现本多宝箱参与的交易记录",
     "load_more": "加载更多"
   },
   "nft": {
@@ -300,7 +303,7 @@
     "go_to_explorer": "到链浏览器上查看"
   },
   "routes": {
-    "Wallet": "钱包",
+    "Wallet": "多宝箱",
     "NFT": "藏品",
     "Swap": "Swap",
     "Transactions": "交易",
@@ -315,6 +318,6 @@
     "MELON": "甜瓜",
     "QTON": "青桐",
     "CAT": "变形喵",
-    "WLRT": "白名单兑换券"
+    "WLRC": "兑换券"
   }
 }

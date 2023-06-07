@@ -87,7 +87,7 @@ const AccountEditPage = ({ params, t }) => {
         <GlobalPadding />
 
         <CardButton
-          title={t(`general.name`)}
+          title={t(`general.nickname`)}
           actionIcon="right"
           onPress={goToEditName}>
           <GlobalText type="caption">

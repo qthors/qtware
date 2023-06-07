@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# key
+build-extension.pem
+
 # testing
 /coverage
 

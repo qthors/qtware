@@ -169,6 +169,9 @@ const TransactionsDetailPage = ({ t, params }) => {
                 : transactionDetail.nftAmount?.media ||
                   transactionDetail.transferLogoIn ||
                   transactionDetail.transferLogoOut ||
+                  transactionDetail.transferTokenLogo ||
+                  transactionDetail.tokenLogoIn ||
+                  transactionDetail.tokenLogoOut ||
                   LOGOS.MIRALAND,
             )}
             size="xxl"
@@ -214,11 +217,13 @@ const TransactionsDetailPage = ({ t, params }) => {
                 `${isReceive ? '+' : '-'}${
                   isReceive
                     ? transactionDetail.amount
-                    : parseFloat(
+                    : transactionDetail.transferTokenSymbol === 'MLN'
+                    ? parseFloat(
                         transactionDetail.amount +
                           transactionDetail.fee / TOKEN_DECIMALS.MIRALAND,
                       ).toFixed(8)
-                } MLN`}
+                    : transactionDetail.transferAmount
+                } ${transactionDetail.transferTokenSymbol}`}
             </GlobalText>
           )
         )}

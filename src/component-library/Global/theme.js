@@ -166,6 +166,11 @@ const themes = {
     niceWarningText: '#856404',
     niceDanger: '#f8d7da',
     niceDangerText: '#842029',
+
+    // MI
+    alertWarningBg: 'rgba(255,168,0, 0.2)',
+    alertWarningBorder: 'rgba(255,168,0, 0.4)',
+    alertWarningFont: 'rgba(255,168,0, 1)',
   },
   dark: {
     white: '#1f1f1f',

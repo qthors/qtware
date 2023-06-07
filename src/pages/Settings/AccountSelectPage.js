@@ -110,7 +110,7 @@ const AccountSelectPage = ({ t }) => {
                           Are your sure?
                         </GlobalText>
                       }
-                      btn1Title={`${t('actions.remove')} ${getWalletName(
+                      btn1Title={`${t('actions.remove')}${getWalletName(
                         toRemove,
                         config,
                       )}`}

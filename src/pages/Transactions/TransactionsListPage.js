@@ -179,7 +179,9 @@ const TransactionsListPage = ({ t }) => {
                           tokenImg1={
                             transaction.transferLogoIn ||
                             transaction.transferLogoOut ||
-                            transaction.nftAmount ||
+                            transaction.transferTokenLogo ||
+                            transaction.tokenLogoIn ||
+                            transaction.tokenLogoOut ||
                             (!transaction.error && MLN_ICON)
                           }
                           title={isCreate && TYPES_MAP[transaction.type]}
@@ -297,10 +299,19 @@ const TransactionsListPage = ({ t }) => {
                             !transaction.error && transaction.tokenLogoOut
                           }
                           tokenNames={
-                            !transaction.error &&
-                            transaction.tokenNameIn &&
-                            transaction.tokenNameOut
-                              ? `${transaction.tokenNameIn} → ${transaction.tokenNameOut}
+                            // !transaction.error &&
+                            // transaction.tokenNameIn &&
+                            // transaction.tokenNameOut
+                            !transaction.error
+                              ? `${
+                                  transaction.tokenNameIn
+                                    ? transaction.tokenNameIn
+                                    : 'Unknown'
+                                } → ${
+                                  transaction.tokenNameOut
+                                    ? transaction.tokenNameOut
+                                    : 'Unknown'
+                                }
                                 `
                               : 'Unknown'
                           }

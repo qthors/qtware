@@ -3134,10 +3134,10 @@
     "@solarti/buffer-layout-utils" "^0.2.6"
     buffer "^6.0.3"
 
-"@solarti/spl-token-registry@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@solarti/spl-token-registry/-/spl-token-registry-0.5.0.tgz#8dd2b5e3f8f5b1a8c8f3cbeb4f13a0c615ce7a7e"
-  integrity sha512-uOPAhEOvUZQPhJCnAZ4EXODAuURCQ11OL1iBYJ3jKGMKZ8g/PBAE4HmTb4wQ3SM/8WWhY9dpxmrOjgcojqYpOA==
+"@solarti/spl-token-registry@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@solarti/spl-token-registry/-/spl-token-registry-0.5.2.tgz#79c42ed8b3165fa6e36dcf6ceb84bf906948b18d"
+  integrity sha512-7GIthjuSQjTaesNET+TtmM+CzaA+D9CIeiFBIOcqruZj/X/l+BdCxx9GYZTOUd0nUGw7aOWs3lm6KP1tLJ8KVA==
   dependencies:
     cross-fetch "3.0.6"
 
@@ -13051,16 +13051,16 @@ qs@^6.10.3:
   dependencies:
     side-channel "^1.0.4"
 
-qtw-wallet-adapter@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/qtw-wallet-adapter/-/qtw-wallet-adapter-0.1.7.tgz#b8bff19da6c775b2b847ce93c869195be0960a15"
-  integrity sha512-5athPTqSAsPYSe08qlQA7t8+7VNuGKfs38rCeGlkpBGTRhPPlrAfQf6ealLVeJ90GVqO6IoEcxl/BVlW3KnQeQ==
+qtw-wallet-adapter@^0.1.27:
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/qtw-wallet-adapter/-/qtw-wallet-adapter-0.1.27.tgz#eb5051d79cf98cfe32478bacba48b5a072fd3286"
+  integrity sha512-qdP1X8kve2pY6rFM2ZK9aoYw6lnR7x+qiemCQvL9JB9jZb/29N2ZAvZRHOUI6WKUfoVtDmyEM/X2O8pFgFCotA==
   dependencies:
     "@metaplex-solarti/js" "^0.17.3-rc.16"
     "@miraplex/miraplex-token-metadata" "^2.7.1"
     "@solarti/solarti-name-service" "^0.1.4"
     "@solarti/solarti-token" "^0.3.7"
-    "@solarti/spl-token-registry" "^0.5.0"
+    "@solarti/spl-token-registry" "^0.5.2"
     "@solarti/web3.js" "^1.73.2"
     axios "^0.27.2"
     bip39 "^3.0.4"

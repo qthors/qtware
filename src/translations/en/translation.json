@@ -3,6 +3,7 @@
     "home": "Home",
     "usd": "USD",
     "name": "Name",
+    "nickname": "Nickname",
     "address": "Address",
     "to": "To",
     "name_or_address": "Name or \"{{token}}\" Address",
@@ -35,7 +36,7 @@
     "copy": "Copy",
     "close": "Close",
     "save": "Save",
-    "remove": "Yes, remove",
+    "remove": "Yes, remove ",
     "remove_all": "Yes, remove all",
     "accept": "Accept",
     "cancel": "Cancel",
@@ -61,17 +62,17 @@
     "trusted_apps": "Trusted Apps",
     "help_support": "Help & Support",
     "wallets": {
-      "your_wallets": "Your Wallets",
-      "my_wallets": "My Wallets",
-      "add_new_wallet": "Add New Wallet",
-      "remove_wallet": "Remove Wallet",
-      "remove_all_wallets": "Remove All Wallets",
-      "remove_all_wallets_description": "You're about to disconnect all your wallets. Keep in mind that you will need your secret phrases or private keys to connect them again.",
-      "remove_wallet_description": "You're about to remove this wallet. Keep in mind that, to use it again, you will need to re-select it from derivables, or use your secret phrase.",
-      "edit_wallet": "Edit Wallet",
+      "your_wallets": "Your Treasure Wares",
+      "my_wallets": "My Treasure Wares",
+      "add_new_wallet": "Add New Treasure Ware",
+      "remove_wallet": "Remove Treasure Ware",
+      "remove_all_wallets": "Remove All Treasure Wares",
+      "remove_all_wallets_description": "You're about to disconnect all your treasure wares. Keep in mind that you will need your secret phrases or private keys to connect them again.",
+      "remove_wallet_description": "You're about to remove this treasure ware. Keep in mind that, to use it again, you will need to re-select it from derivables, or use your secret phrase.",
+      "edit_wallet": "Edit Treasure Ware",
       "edit_name": "Edit Name",
-      "edit_name_disclaimer": "Keep in mind that this name works locally for you to easily identify your wallet. None of this data is reflected on the blockchain.",
-      "edit_address": "Edit Wallet",
+      "edit_name_disclaimer": "Keep in mind that this name works locally for you to easily identify your treasure ware. None of this data is reflected on the blockchain.",
+      "edit_address": "Edit Treasure Ware",
       "tap_to_reveal": "Tap to Reveal",
       "set_profile_picture": "Set Profile Picture",
       "select_nft": "Select NFT",
@@ -79,7 +80,9 @@
       "select_nft_to_profile": "Select NFT to Profile",
       "full_nft_description": "Full NFT Description",
       "select_avatar": "Select Avatar",
-      "wallet_address": "Wallet address"
+      "wallet_name": "Treasure Ware nickname",
+      "wallet_address": "Treasure Ware address",
+      "are_you_sure": "Are you sure?"
     },
     "addressbook": {
       "add": "Add Address",
@@ -154,14 +157,14 @@
     "non_listed_tokens": "Non-Listed Tokens",
     "my_nfts": "My NFTs",
     "copied": "Copied to clipboard!",
-    "create_wallet": "Create Wallet",
-    "recover_wallet": "Recover Wallet",
+    "create_wallet": "Create Treasure Ware",
+    "recover_wallet": "Recover Treasure Ware",
     "select_token": "Select Token",
     "new_token": "Add custom token",
     "is_coming_soon": "is coming soon",
     "create": {
       "messageTitle": "Keep your secret phrase safe!",
-      "messageBody": "You will need these words to restore your wallet if your browser's storage is cleared or your device is damaged or lost. \n\n Never share your secret phrase (or your private keys) with anyone or enter it into any form, as it provides full control of your wallet. \n\n Qtware Team will never ask for your recovery phrase or private keys.",
+      "messageBody": "You will need these words to restore your treasure ware if your browser's storage is cleared or your device is damaged or lost. \n\n Never share your secret phrase (or your private keys) with anyone or enter it into any form, as it provides full control of your treasure ware. \n\n Qtware Team will never ask for your recovery phrase or private keys.",
       "your_seed_phrase": "Your Secret Phrase",
       "your_seed_phrase_body": "Make sure you save the following words in a safe place. Also, keep in mind that the position of each word is important.",
       "copy_key": "Copy Secret Phrase",
@@ -175,14 +178,14 @@
       "invalid_password": "Invalid Password",
       "wrong_password": "Password must be between 8 and 20 characters",
       "choose_a_password": "Choose a Password",
-      "choose_a_password_body": "You will need it to unlock your wallet",
+      "choose_a_password_body": "You will need it to unlock your treasure ware",
       "passwordNew": "New password",
       "passwordRepeat": "Repeat password",
-      "i_accept_terms_conditions": "🎗️Click me to review Terms and Conditions.\nBy tapping the Create Wallet button \nI accept the Terms & Conditions",
+      "i_accept_terms_conditions": "🎗️Click me to review Terms and Conditions.\nBy tapping the Create Treasure Ware button \nI accept the Terms & Conditions",
       "passwordChecking": "Checking...",
       "success_message": "Congratulations!",
-      "success_message_body": "Your wallet is now ready",
-      "go_to_my_wallet": "Go to my Wallet!",
+      "success_message_body": "Your treasure ware is now ready",
+      "go_to_my_wallet": "Go to my Treasure Ware!",
       "select_derivable": "Select Derivable",
       "derivable_accounts": "Derivable Accounts",
       "derivable_info_icon": "ⓘ  What is a derivable?",
@@ -193,18 +196,18 @@
       "skip": "Skip"
     },
     "recover": {
-      "messageTitle": "Recover Existing Wallet",
-      "messageBody": "Recover your wallet using your 12/24 words secret phrase.",
+      "messageTitle": "Recover Existing Treasure Ware",
+      "messageBody": "Recover your treasure ware using your 12/24 words secret phrase.",
       "pasteSeed": "Paste your secret phrase",
-      "i_accept_terms_conditions": "🎗️Click me to review Terms and Conditions.\nBy tapping the Recover Wallet button \nI accept the Terms & Conditions"
+      "i_accept_terms_conditions": "🎗️Click me to review Terms and Conditions.\nBy tapping the Recover Treasure Ware button \nI accept the Terms & Conditions"
     },
     "onboarding": {
-      "titleOnboarded": "Add New Wallet",
+      "titleOnboarded": "Add New Treasure Ware",
       "titleWelcome": "Welcome",
       "select_blockchain": "Select Blockchain",
-      "select_blockchain_text": "Keep in mind that the wallet you are about to create will only work in that particular blockchain.\nYou can add other blockchains later from this same menu.",
+      "select_blockchain_text": "Keep in mind that the treasure ware you are about to create will only work in that particular blockchain.\nYou can add other blockchains later from this same menu.",
       "title1": "Welcome to Qtware!",
-      "content1": "Your trusted, trustless & open-source wallet\nfor web3/metaverse and ai era",
+      "content1": "Your trusted, trustless & open-source treasure ware\ndesigned for web3/metaverse and ai era",
       "title2": "Keep the control\nof your tokens",
       "content2": "All your assets, in your hands.\nWe don’t have access to them at all.",
       "title3": "Stay tuned",
@@ -223,7 +226,7 @@
   },
   "adapter": {
     "select": {
-      "title": "Select Wallet"
+      "title": "Select Treasure Ware"
     },
     "detail": {
       "connection": {
@@ -270,7 +273,7 @@
     "view_transaction": "View Transaction",
     "today": "Today",
     "yesterday": "Yesterday",
-    "empty": "No transactions of this wallet found",
+    "empty": "No transactions of this treasure ware found",
     "load_more": "Load more"
   },
   "nft": {
@@ -315,6 +318,6 @@
     "MELON": "Melons",
     "QTON": "Qing Tong",
     "CAT": "Crypto-Ai-Transformer X",
-    "WLRT": "WhiteList Redemption Coupons"
+    "WLRC": "White List Redemption Coupon"
   }
 }

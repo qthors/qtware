@@ -38,7 +38,7 @@ const AddressBookEditPage = ({ params, t }) => {
       <GlobalLayout.Header>
         <GlobalBackTitle
           onBack={onBack}
-          title={t(`settings.wallets.edit_name`)}
+          title={t(`settings.wallets.wallet_name`)}
         />
 
         <GlobalPadding size="md" />

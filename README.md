@@ -1,6 +1,6 @@
-# Qtware Wallet
+# Qtware Treasure Ware
 
-This wallet was forked/derived from Salmon Wallet. Adaption has been made for community purpose.
+This treasure ware was forked/derived from Salmon Wallet. Adaption has been made for community purpose.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Installation

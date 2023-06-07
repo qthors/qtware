@@ -55,7 +55,9 @@ const warningStyles = StyleSheet.create({
     borderStyle: 'solid',
   },
   text: {
-    color: theme.colors.alertErrorFont,
+    // MI
+    // color: theme.colors.alertErrorFont,
+    color: theme.colors.alertWarningFont,
   },
 });
 

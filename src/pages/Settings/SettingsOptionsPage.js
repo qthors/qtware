@@ -89,7 +89,8 @@ const SettingsOptionsPage = ({ t }) => {
 
   const goToHelpSupport = () =>
     // Linking.openURL(`https://salmonwallet.io/support.html`);
-    Linking.openURL(`https://solarti.top/support.html`);
+    // Linking.openURL(`https://solarti.top/support.html`);
+    Linking.openURL(`https://qthors.github.io/qtware-eula/support.html`);
 
   return (
     <GlobalLayout>
@@ -185,10 +186,10 @@ const SettingsOptionsPage = ({ t }) => {
         type="danger"
         title={
           <GlobalText center type="headline3" numberOfLines={1}>
-            Are your sure?
+            {t(`settings.wallets.are_you_sure`)}
           </GlobalText>
         }
-        btn1Title={`${t('actions.remove')} ${walletName}`}
+        btn1Title={`${t('actions.remove')}${walletName}`}
         btn2Title={t('actions.cancel')}
         onClose={toggleSingleDialog}
         isOpen={showSingleDialog}
@@ -203,7 +204,7 @@ const SettingsOptionsPage = ({ t }) => {
         type="danger"
         title={
           <GlobalText center type="headline3" numberOfLines={1}>
-            Are your sure?
+            {t(`settings.wallets.are_you_sure`)}
           </GlobalText>
         }
         btn1Title={t('actions.remove_all')}

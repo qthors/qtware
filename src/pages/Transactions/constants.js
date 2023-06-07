@@ -16,7 +16,8 @@ const TYPES_MAP = {
 
 const TOKEN_DECIMALS = {
   SOLANA: 1000000000,
-  COINS: 1000000,
+  // COINS: 1000000, // MI
+  COINS: 1, // MI
   SOLARTI: 1000000000,
   QTHOR: 1000000000,
   MIRA: 1000000000,
@@ -24,14 +25,14 @@ const TOKEN_DECIMALS = {
 };
 
 const SOL_ICON =
-  'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png';
+  'https://raw.githubusercontent.com/miralandlabs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png';
 const SLRT_ICON =
-  'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png';
+  'https://raw.githubusercontent.com/miralandlabs/token-list/main/assets/mainnet/SLRT111111111111111111111111111111111111112/logo.png';
 const QTH_ICON =
-  'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png';
+  'https://raw.githubusercontent.com/miralandlabs/token-list/main/assets/mainnet/QTH1111111111111111111111111111111111111112/logo.png';
 const MIRA_ICON =
-  'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png';
-const MLN_ICON = 'https://www.arcaps.com/shared/qtware/logo.png';
+  'https://raw.githubusercontent.com/miralandlabs/token-list/main/assets/mainnet/MIRA111111111111111111111111111111111111112/logo.png';
+const MLN_ICON = 'https://www.arcaps.com/shared/miraland/logo.png'; // 'https://www.arcaps.com/shared/qtware/logo.png';
 
 export {
   TYPES_MAP,

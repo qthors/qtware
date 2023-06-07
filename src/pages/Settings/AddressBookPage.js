@@ -69,7 +69,7 @@ const AddressBookPage = ({ t }) => {
                   Are your sure?
                 </GlobalText>
               }
-              btn1Title={`${t('actions.remove')} ${toRemove.name}`}
+              btn1Title={`${t('actions.remove')}${toRemove.name}`}
               btn2Title={t('actions.cancel')}
               onClose={toggleRemoveDialog}
               isOpen={showRemoveDialog}
