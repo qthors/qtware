@@ -161,7 +161,7 @@ const NftsSendPage = ({ params, t }) => {
   };
 
   const openTransaction = async () => {
-    const url = `https://solscan.io/tx/${transactionId}`;
+    const url = `https://explorer.miraland.top/transaction/${transactionId}`;
     const supported = await Linking.canOpenURL(url);
     if (supported) {
       await Linking.openURL(url);
@@ -436,8 +436,8 @@ const NftsSendPage = ({ params, t }) => {
                   wide
                   title={t(`token.send.goto_explorer`)}
                   onPress={openTransaction}
-                  disabled={true}
-                  disableElevation
+                  // disabled={true}
+                  // disableElevation
                   style={globalStyles.button}
                   touchableStyles={globalStyles.buttonTouchable}
                 />

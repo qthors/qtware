@@ -169,7 +169,7 @@ const linkForTransaction = (title, id, status) => (
 );
 
 const openTransaction = async tx => {
-  const url = `https://solscan.io/tx/${tx}`;
+  const url = `https://explorer.miraland.top/transaction/${tx}`;
   const supported = await Linking.canOpenURL(url);
 
   if (supported) {

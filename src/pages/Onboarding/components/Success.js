@@ -68,6 +68,7 @@ const Success = ({ goToWallet, goToDerived, t }) => {
           wide
           title={t(`wallet.create.select_derivable`)}
           onPress={goToDerived}
+          disabled={true}
         />
         <GlobalButton
           type="text"
@@ -75,6 +76,7 @@ const Success = ({ goToWallet, goToDerived, t }) => {
           textStyle={styles.infoLink}
           title={t(`wallet.create.derivable_info_icon`)}
           onPress={toggleDialog}
+          disabled={true}
         />
         <SimpleDialog
           title={

@@ -328,11 +328,11 @@ const TransactionsDetailPage = ({ t, params }) => {
           title={t(`token.send.goto_explorer`)}
           onPress={() =>
             Linking.openURL(
-              `https://solscan.io/tx/${transactionDetail.signature}`,
+              `https://explorer.miraland.top/transaction/${transactionDetail.signature}`,
             )
           }
-          disabled={true}
-          disableElevation
+          // disabled={true}
+          // disableElevation
         />
 
         <GlobalPadding />
@@ -506,11 +506,11 @@ const TransactionsDetailPage = ({ t, params }) => {
           title={t(`token.send.goto_explorer`)}
           onPress={() =>
             Linking.openURL(
-              `https://solscan.io/tx/${transactionDetail.signature}`,
+              `https://explorer.miraland.top/transaction/${transactionDetail.signature}`,
             )
           }
-          disabled={true}
-          disableElevation
+          // disabled={true}
+          // disableElevation
         />
 
         <GlobalPadding />
@@ -646,11 +646,11 @@ const TransactionsDetailPage = ({ t, params }) => {
         title={t(`token.send.goto_explorer`)}
         onPress={() =>
           Linking.openURL(
-            `https://solscan.io/tx/${transactionDetail.signature}`,
+            `https://explorer.miraland.top/transaction/${transactionDetail.signature}`,
           )
         }
-        disabled={true}
-        disableElevation
+        // disabled={true}
+        // disableElevation
       />
 
       <GlobalPadding />

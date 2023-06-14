@@ -19,8 +19,8 @@ const STORAGE_KEYS = {
   ACTIVE: 'active',
 };
 
-const WALLET_PLACEHOLDER = 'My Treasure Chest NRO'; // MI, vanilla: 'Wallet NRO'
-const WALLET_DERIVED_PLACEHOLDER = 'My Treasure Chest Derived NRO'; // MI, vanilla: 'Wallet'
+const WALLET_PLACEHOLDER = 'My Treasure Ware NRO'; // MI, vanilla: 'Wallet NRO'
+const WALLET_DERIVED_PLACEHOLDER = 'My Treasure Ware Derived NRO'; // MI, vanilla: 'Wallet'
 
 // Sol
 // const DEFAULT_PATH = "m/44'/501'/0'/0'";
