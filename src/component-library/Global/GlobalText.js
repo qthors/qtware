@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     lineHeight: theme.lineHeight.lineHeightLG,
     color: theme.colors.labelPrimary,
     fontFamily: theme.fonts.dmSansBold,
+    // fontFamily: 'fantasy',
   },
   headline3: {
     marginBottom: theme.gutters.responsivePadding,

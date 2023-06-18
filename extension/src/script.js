@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
-
-window.qtware = { // change from salmon to qtware, m17
+// change from salmon to qtware, m17
+window.qtware = {
   postMessage: message => {
     const listener = event => {
       if (event.detail.id === message.id) {
