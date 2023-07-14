@@ -52,7 +52,7 @@
     "confirm_anyway": "是的, 确认"
   },
   "settings": {
-    "app_version": "版本: 0.1.0",
+    "app_version": "版本: 1.0.0",
     "title": "设置",
     "address_book": "地址簿",
     "display_language": "显示语言",

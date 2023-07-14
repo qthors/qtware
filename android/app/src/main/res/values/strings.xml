@@ -1,3 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">SalmonWallet</string>
+    <string name="app_name">qtware</string>
+    <string name="title_activity_main">qtware</string>
+    <string name="package_name">com.arcaps.qtware</string>
+    <string name="custom_url_scheme">com.arcaps.qtware</string>
 </resources>

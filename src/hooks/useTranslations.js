@@ -1,16 +1,32 @@
 import { useEffect, useState } from 'react';
 import { withTranslation as withTranslationHOC } from 'react-i18next';
-
 import i18n, { LANGUAGES, resources } from '../translations';
+import { Platform, NativeModules } from 'react-native';
 import storage from '../utils/storage';
 
 // MI
 // console.log('language: ' + i18n.language); // undefined
-
 // const DEFAULT_LANGUAGE = 'zh'; //MI, vanilla: 'en'
+
+// as of ios 13, prefer AppleLanguages
+const deviceLanguage =
+  Platform.OS === 'ios'
+    ? NativeModules.SettingsManager.settings.AppleLanguages[0] ||
+      NativeModules.SettingsManager.settings.AppleLocale
+    : Platform.OS === 'android'
+    ? NativeModules.I18nManager.localeIdentifier
+    : undefined;
+
+console.log('device language: ' + deviceLanguage); //en_US
+
 const usrlangs = navigator.languages;
-console.log('language: ' + usrlangs);
-const DEFAULT_LANGUAGE = usrlangs?.[0].startsWith('zh') ? 'zh' : 'en';
+console.log('browser language: ' + usrlangs);
+
+const DEFAULT_LANGUAGE = usrlangs
+  ? usrlangs?.[0].startsWith('zh')
+    ? 'zh'
+    : 'en'
+  : deviceLanguage ?? 'en';
 
 const STORAGE_KEYS = {
   LANGUAGE: 'lang',

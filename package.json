@@ -1,6 +1,6 @@
 {
   "name": "qtware",
-  "version": "0.5.2",
+  "version": "1.0.0",
   "description": "Forked/Derived from and credit to Salmon wallet",
   "author": "",
   "contributors": [
@@ -22,6 +22,9 @@
   "private": true,
   "license": "GPL-3.0-only",
   "dependencies": {
+    "@capacitor/android": "^5.2.0",
+    "@capacitor/core": "^5.2.0",
+    "@capacitor/ios": "^5.2.0",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@mui/material": "^5.10.4",
@@ -35,7 +38,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@usedapp/core": "^1.1.5",
     "assert": "^2.0.0",
-    "avsc": "^5.7.6",
+    "avsc": "^5.7.7",
     "browserify-zlib": "^0.2.0",
     "bs58": "^5.0.0",
     "crypto-browserify": "^3.12.0",
@@ -45,6 +48,7 @@
     "metro-config": "^0.72.2",
     "moment": "^2.29.4",
     "patch-package": "^6.4.7",
+    "pm2": "^5.3.0",
     "process": "^0.11.10",
     "qrcode.react": "^3.1.0",
     "qtw-wallet-adapter": "^0.1.27",
@@ -85,6 +89,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
+    "@capacitor/cli": "^5.2.0",
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/chrome": "^0.0.193",
     "babel-jest": "^26.6.3",
