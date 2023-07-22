@@ -27,7 +27,9 @@ const NftsCollectionPage = ({ params, t }) => {
       cache(
         `${activeWallet.networkId}-${activeWallet.getReceiveAddress()}`,
         CACHE_TYPES.NFTS,
+        // MI, simplify
         () => activeWallet.getAllNftsGrouped(),
+        // () => activeWallet.getAllNfts(),
       ).then(async nfts => {
         const collection = nfts.find(n => n.collection === params.id);
         if (collection) {
@@ -43,7 +45,11 @@ const NftsCollectionPage = ({ params, t }) => {
     navigate(ROUTES_MAP.NFTS_LIST);
   };
   const onClick = nft => {
-    navigate(ROUTES_MAP.NFTS_DETAIL, { id: nft.mint });
+    // MI, vanilla
+    // navigate(ROUTES_MAP.NFTS_DETAIL, { id: nft.mint });
+    navigate(ROUTES_MAP.NFTS_DETAIL, {
+      id: nft?.mint?.address || nft?.address,
+    });
   };
   return (
     (loaded && (
@@ -54,7 +60,15 @@ const NftsCollectionPage = ({ params, t }) => {
             onBack={goToBack}
             inlineTitle={
               <GlobalText type="headline2" center>
-                {params.id}
+                {/* {params.id} */}
+                {[
+                  nftsCollection?.[0].symbol,
+                  '(',
+                  params.id.substring(0, 3),
+                  '...',
+                  params.id.substring(params.id.length - 3),
+                  ')',
+                ].join('')}
               </GlobalText>
             }
           />

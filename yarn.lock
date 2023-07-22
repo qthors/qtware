@@ -13974,10 +13974,10 @@ qs@^6.10.3, qs@^6.11.0:
   dependencies:
     side-channel "^1.0.4"
 
-qtw-wallet-adapter@^0.1.27:
-  version "0.1.27"
-  resolved "https://registry.yarnpkg.com/qtw-wallet-adapter/-/qtw-wallet-adapter-0.1.27.tgz#eb5051d79cf98cfe32478bacba48b5a072fd3286"
-  integrity sha512-qdP1X8kve2pY6rFM2ZK9aoYw6lnR7x+qiemCQvL9JB9jZb/29N2ZAvZRHOUI6WKUfoVtDmyEM/X2O8pFgFCotA==
+qtw-wallet-adapter@^0.1.36:
+  version "0.1.36"
+  resolved "https://registry.yarnpkg.com/qtw-wallet-adapter/-/qtw-wallet-adapter-0.1.36.tgz#d4ff4a6d49b9f2c03b02389687388c775ae9df3f"
+  integrity sha512-TFsWnkju5TWEexPzwItbd8nebc+WAf7LcZRGkejYIzM9dvd02qD1hbUibtWGWwWDU4PCj8mgUABSNRUu+Ivzsg==
   dependencies:
     "@metaplex-solarti/js" "^0.17.3-rc.16"
     "@miraplex/miraplex-token-metadata" "^2.7.1"

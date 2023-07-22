@@ -8,7 +8,7 @@ import { cache, CACHE_TYPES } from '../../utils/cache';
 // import { ROUTES_MAP as APP_ROUTES_MAP } from '../../routes/app-routes';
 import { ROUTES_MAP as NFTS_ROUTES_MAP } from './routes';
 // import { getWalletName } from '../../utils/wallet';
-import { isMoreThanOne } from '../../utils/nfts';
+import { isMoreThanOne, isCollection } from '../../utils/nfts';
 
 import { globalStyles } from '../../component-library/Global/theme';
 import GlobalSkeleton from '../../component-library/Global/GlobalSkeleton';
@@ -33,7 +33,9 @@ const NftsListPage = ({ t }) => {
       cache(
         `${activeWallet.networkId}-${activeWallet.getReceiveAddress()}`,
         CACHE_TYPES.NFTS,
+        // MI, simplify
         () => activeWallet.getAllNftsGrouped(),
+        // () => activeWallet.getAllNfts(),
       ).then(async nfts => {
         setNftsGroup(nfts);
         const listed = await activeWallet.getListedNfts();
@@ -48,14 +50,22 @@ const NftsListPage = ({ t }) => {
   const onClick = nft => {
     if (isMoreThanOne(nft)) {
       navigate(NFTS_ROUTES_MAP.NFTS_COLLECTION, { id: nft.collection });
+    } else if (isCollection(nft)) {
+      // MI
+      console.log(
+        `nft.items[0].mint.address: '${nft?.items?.[0].mint?.address}'`,
+      );
+      navigate(NFTS_ROUTES_MAP.NFTS_DETAIL, {
+        id: nft?.items?.[0].mint?.address,
+      });
     } else {
       console.log(
-        `nft.mint.address: '${nft?.mint?.address}' nft.mintAddress: '${nft?.mintAddress}'`,
+        `nft.mint.address: '${nft?.mint?.address}' nft.address: '${nft?.address}'`,
       );
       console.log(`nft.json.image: '${nft?.json?.image}'`);
       navigate(NFTS_ROUTES_MAP.NFTS_DETAIL, {
         // id: nft?.mint || nft?.items?.[0].mint, // m17: better for production
-        id: nft?.mint?.address || nft?.mintAddress,
+        id: nft?.mint?.address || nft?.address,
       });
     }
   };

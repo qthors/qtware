@@ -84,7 +84,8 @@ const GlobalLayout = ({
       <StatusBar barStyle={'light-content'} />
       <ScrollView
         contentContainerStyle={layoutStyle}
-        contentInsetAdjustmentBehavior="never"
+        // contentInsetAdjustmentBehavior="never" // MI, vanilla
+        contentInsetAdjustmentBehavior="automatic"
         {...(onRefresh
           ? {
               refreshControl: (

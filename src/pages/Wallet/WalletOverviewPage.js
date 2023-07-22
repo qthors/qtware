@@ -25,7 +25,7 @@ import WalletBalanceCard from '../../component-library/Global/GlobalBalance';
 import Header from '../../component-library/Layout/Header';
 // import IconNotifications from '../../assets/images/IconNotifications.png';
 // import IconNotificationsAdd from '../../assets/images/IconNotificationsAdd.png';
-import { isMoreThanOne } from '../../utils/nfts';
+import { isMoreThanOne, isCollection } from '../../utils/nfts';
 // import IconNotifications from '../../assets/images/IconNotifications.png';
 // import IconNotificationsAdd from '../../assets/images/IconNotificationsAdd.png';
 
@@ -56,7 +56,9 @@ const WalletOverviewPage = ({ t }) => {
         cache(
           `${activeWallet.networkId}-${activeWallet.getReceiveAddress()}`,
           CACHE_TYPES.NFTS,
+          // MI, simplify
           () => activeWallet.getAllNftsGrouped(),
+          // () => activeWallet.getAllNfts(),
         ),
       ]).then(async ([balance, nfts]) => {
         setTotalBalance(balance);
@@ -98,10 +100,18 @@ const WalletOverviewPage = ({ t }) => {
   const handleNftsClick = nft => {
     if (isMoreThanOne(nft)) {
       navigate(NFTS_ROUTES_MAP.NFTS_COLLECTION, { id: nft.collection });
+    } else if (isCollection(nft)) {
+      // MI
+      console.log(
+        `nft.items[0].mint.address: '${nft?.items?.[0].mint?.address}'`,
+      );
+      navigate(NFTS_ROUTES_MAP.NFTS_DETAIL, {
+        id: nft?.items?.[0].mint?.address,
+      });
     } else {
       navigate(NFTS_ROUTES_MAP.NFTS_DETAIL, {
         // id: nft?.mint || nft?.items?.[0].mint, // m17: better for production
-        id: nft?.mint?.address || nft?.mintAddress,
+        id: nft?.mint?.address || nft?.address,
       });
     }
   };

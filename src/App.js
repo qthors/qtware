@@ -3,7 +3,6 @@ import React from 'react';
 import AppProvider from './AppProvider';
 import AppRoutes from './AppRoutes';
 // import ReactGA from 'react-ga4';
-// import Metaplex from '@metaplex-solarti/js';
 
 const App = () => {
   // ReactGA.initialize('G-HE1ZJJBN0V');

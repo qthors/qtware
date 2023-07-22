@@ -48,10 +48,11 @@ const styles = StyleSheet.create({
   },
 });
 
+// MI: change <View key={nft.url} style={styles.image}> to <View key={nft.uri} style={styles.image}>
 const GlobalNft = ({ nft, onClick = () => {}, t }) => (
   <>
     <TouchableOpacity onPress={() => onClick(nft)} style={styles.touchable}>
-      <View key={nft.url} style={styles.image}>
+      <View key={nft.uri} style={styles.image}>
         <GlobalFloatingBadge
           {...{
             titleTop: nft.marketInfo?.price && (
@@ -103,7 +104,16 @@ const GlobalNft = ({ nft, onClick = () => {}, t }) => (
         center
         type="caption"
         numberOfLines={1}>
-        {isCollection(nft) ? nft.collection : nft.name || nft.symbol}
+        {isCollection(nft)
+          ? [
+              nft.symbol,
+              '(',
+              nft.collection.substring(0, 3),
+              '...',
+              nft.collection.substring(nft.collection.length - 3),
+              ')',
+            ].join('')
+          : nft.name || nft.symbol}
       </GlobalText>
     </View>
   </>
