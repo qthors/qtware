@@ -48,10 +48,10 @@ const debug = {
 };
 
 const fonts = {
-  primary: 'DMSansRegular',
-  dmSansRegular: 'DMSans-Regular',
-  dmSansMedium: 'DMSans-Medium',
-  dmSansBold: 'DMSans-Bold',
+  primary: 'Oswald-Regular',
+  dmSansRegular: 'Oswald-Regular',
+  dmSansMedium: 'Oswald-Medium',
+  dmSansBold: 'Oswald-Bold',
 };
 
 const fontSize = {

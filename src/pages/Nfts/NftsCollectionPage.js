@@ -10,6 +10,7 @@ import { withTranslation } from '../../hooks/useTranslations';
 import GlobalBackTitle from '../../component-library/Global/GlobalBackTitle';
 import GlobalLayout from '../../component-library/Global/GlobalLayout';
 import GlobalNftList from '../../component-library/Global/GlobalNftList';
+import GlobalPadding from '../../component-library/Global/GlobalPadding';
 import GlobalText from '../../component-library/Global/GlobalText';
 import Header from '../../component-library/Layout/Header';
 import useAnalyticsEventTracker from '../../hooks/useAnalyticsEventTracker';
@@ -55,6 +56,7 @@ const NftsCollectionPage = ({ params, t }) => {
     (loaded && (
       <GlobalLayout fullscreen>
         <GlobalLayout.Header>
+          <GlobalPadding />
           <Header activeWallet={activeWallet} config={config} t={t} />
           <GlobalBackTitle
             onBack={goToBack}

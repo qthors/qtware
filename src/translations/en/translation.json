@@ -64,7 +64,7 @@
     "wallets": {
       "your_wallets": "Your Treasure Wares",
       "my_wallets": "My Treasure Wares",
-      "add_new_wallet": "Add New Treasure Ware",
+      "add_new_wallet": "Add Treasure Ware",
       "remove_wallet": "Remove Treasure Ware",
       "remove_all_wallets": "Remove All Treasure Wares",
       "remove_all_wallets_description": "You're about to disconnect all your treasure wares. Keep in mind that you will need your secret phrases or private keys to connect them again.",
@@ -110,8 +110,8 @@
     },
     "receive": {
       "title": "Receive",
-      "solana_warning": "This address is for receive MLN and Solarti tokens only on Miraland",
-      "warning": "This address is for receive MLN and Solarti tokens only on Miraland"
+      "miraland_warning": "This address is for receive MLN, Solarti tokens or NFTs only on Miraland",
+      "warning": "This address is for receive MLN, Solarti tokens or NFTs only on Miraland"
     },
     "send": {
       "address": {
@@ -153,6 +153,7 @@
     "clear_confirm": "I Confirm to Clear the Password"
   },
   "wallet": {
+    "influence": "R&P",
     "my_tokens": "My Tokens",
     "non_listed_tokens": "Non-Listed Tokens",
     "my_nfts": "My NFTs",
@@ -207,9 +208,9 @@
       "select_blockchain": "Select Blockchain",
       "select_blockchain_text": "Keep in mind that the treasure ware you are about to create will only work in that particular blockchain.\nYou can add other blockchains later from this same menu.",
       "title1": "Welcome to QTware!",
-      "content1": "designed for web3/metaverse and ai era\nYour trusted & trustless treasure ware",
+      "content1": "An identity and value carrier empowering you\nto lead a sovereign individual's life in Crai era",
       "title2": "Keep the control\nof your tokens",
-      "content2": "All your assets, in your hands.\nWe don’t have access to them at all.",
+      "content2": "All your assets, in your hands.\nNo one else has access to them at all.",
       "title3": "Stay tuned",
       "content3": "Follow us at ",
       "content3b": "@miracleland6",
@@ -269,7 +270,7 @@
     "your_transactions": "My Transactions",
     "recent_activity": "Recent Activity",
     "transaction_detail": "Transaction Detail",
-    "detail_back": "Go Back",
+    "detail_back": "Go to Homepage",
     "view_transaction": "View Transaction",
     "today": "Today",
     "yesterday": "Yesterday",

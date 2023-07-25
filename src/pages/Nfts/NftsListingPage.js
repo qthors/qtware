@@ -175,6 +175,7 @@ const NftsListingPage = ({ params, t }) => {
       {step === 1 && (
         <>
           <GlobalLayout.Header>
+            <GlobalPadding />
             <GlobalBackTitle
               onBack={goToBack}
               inlineTitle={getWalletName(

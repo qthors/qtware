@@ -14,6 +14,7 @@ import { globalStyles } from '../../component-library/Global/theme';
 import GlobalSkeleton from '../../component-library/Global/GlobalSkeleton';
 import GlobalLayout from '../../component-library/Global/GlobalLayout';
 import GlobalNftList from '../../component-library/Global/GlobalNftList';
+import GlobalPadding from '../../component-library/Global/GlobalPadding';
 import GlobalText from '../../component-library/Global/GlobalText';
 import Header from '../../component-library/Layout/Header';
 
@@ -75,6 +76,7 @@ const NftsListPage = ({ t }) => {
       <GlobalLayout>
         {loaded && (
           <GlobalLayout.Header>
+            <GlobalPadding />
             <Header activeWallet={activeWallet} config={config} t={t} />
             <View style={globalStyles.centered}>
               <GlobalText type="headline2">{t(`wallet.my_nfts`)}</GlobalText>

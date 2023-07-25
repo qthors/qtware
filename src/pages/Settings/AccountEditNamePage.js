@@ -44,7 +44,7 @@ const AddressBookEditPage = ({ params, t }) => {
         <GlobalPadding size="md" />
 
         <GlobalInput
-          placeholder={t('general.name')}
+          placeholder={t('settings.wallets.wallet_name')}
           value={accountName}
           setValue={setAccountName}
           invalid={!accountName}

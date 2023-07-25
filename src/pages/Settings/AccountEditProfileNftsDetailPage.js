@@ -30,7 +30,7 @@ const AccountEditProfilePage = ({ params, t }) => {
         CACHE_TYPES.NFTS_ALL,
         () => activeWallet.getAllNfts(),
       ).then(result => {
-        setCurrentNft(result.find(n => n.mint === params.id));
+        setCurrentNft(result.find(n => n.address.toBase58() === params.id));
       });
     }
   }, [activeWallet, params.id]);
@@ -41,7 +41,7 @@ const AccountEditProfilePage = ({ params, t }) => {
     });
   const onSave = () => {
     setSaving(true);
-    editWalletAvatar(activeWallet.getReceiveAddress(), currentNft.media);
+    editWalletAvatar(activeWallet.getReceiveAddress(), currentNft.json?.image);
     setSaving(false);
     navigate(ROUTES_WALLET_MAP.WALLET_OVERVIEW);
   };
@@ -57,7 +57,7 @@ const AccountEditProfilePage = ({ params, t }) => {
           <View style={globalStyles.centered}>
             <View style={globalStyles.squareRatio}>
               <GlobalImage
-                source={getMediaRemoteUrl(currentNft.media)}
+                source={getMediaRemoteUrl(currentNft.json?.image)}
                 style={globalStyles.bigImage}
                 square
                 squircle
@@ -81,7 +81,7 @@ const AccountEditProfilePage = ({ params, t }) => {
               wideSmall
               title={t('settings.wallets.full_nft_description')}
               onPress={() => {}}
-              disabled={saving}
+              disabled={saving || true}
             />
 
             <GlobalPadding />
@@ -89,7 +89,7 @@ const AccountEditProfilePage = ({ params, t }) => {
             <GlobalButton
               type="secondary"
               wideSmall
-              title={t('general.home')}
+              title={t('general.back')}
               onPress={onBack}
               disabled={saving}
             />

@@ -62,7 +62,7 @@ const WelcomePage = ({ t }) => {
     <GlobalLayout fullscreen>
       <GlobalLayout.Header centered>
         {/* MI, added for better layout/manual safearea */}
-        <GlobalPadding size="4xl" />
+        <GlobalPadding size="2xl" />
         <View style={globalStyles.alignEnd}>
           <GlobalButton
             type="text"

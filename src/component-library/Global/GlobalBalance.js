@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
 
 const WalletBalanceCard = ({
   total,
-  totalType = 'headline1',
+  totalType = 'headline2', // MI, vanilla: headline1
   neutralTotal,
   negativeTotal,
   positiveTotal,

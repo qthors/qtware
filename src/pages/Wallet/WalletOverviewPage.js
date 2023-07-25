@@ -122,13 +122,16 @@ const WalletOverviewPage = ({ t }) => {
   return (
     activeWallet && (
       <GlobalLayout onRefresh={onRefresh} refreshing={loading}>
+        <GlobalPadding />
         <GlobalLayout.Header>
           <Header activeWallet={activeWallet} config={config} t={t} />
           {totalBalance && (
             <WalletBalanceCard
               total={
                 !hiddenBalance
-                  ? showAmount(totalBalance.indexTotal)
+                  ? t('wallet.influence') +
+                    ' ' +
+                    showAmount(totalBalance.indexTotal)
                   : `\u2728 ${hiddenValue}`
               }
               {...{

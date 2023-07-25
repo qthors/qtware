@@ -71,7 +71,7 @@ const AccountSelectPage = ({ t }) => {
         <GlobalLayout.Header>
           <GlobalBackTitle
             onBack={onBack}
-            title={t('settings.wallets.your_wallets')}
+            title={t('settings.wallets.my_wallets')}
           />
 
           {Object.keys(groupedWallets).map(chain => (

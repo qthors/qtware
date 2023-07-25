@@ -64,21 +64,21 @@
     "wallets": {
       "your_wallets": "您的多宝箱",
       "my_wallets": "我的多宝箱",
-      "add_new_wallet": "添加新多宝箱",
+      "add_new_wallet": "添加多宝箱",
       "remove_wallet": "移除多宝箱",
       "remove_all_wallets": "移除所有多宝箱",
       "remove_all_wallets_description": "即将移除与您所有多宝箱的连接。请务必谨记，您需要相应的秘密短语或私钥才能再次连接这些多宝箱。",
       "remove_wallet_description": "即将移除当前多宝箱。谨记当您想要再次使用此多宝箱时，需要通过您的秘密短语恢复本多宝箱，或者从派生多宝箱列表中选择本多宝箱。",
       "edit_wallet": "编辑多宝箱",
       "edit_name": "编辑多宝箱名字",
-      "edit_name_disclaimer": "请务必谨记此姓名只是为了在本地方便您记忆识别不同多宝箱之用。本姓名并不存储或反应在区块链上。",
+      "edit_name_disclaimer": "请务必谨记此名称只是为了在本地方便您记忆识别不同多宝箱之用。本名称并不存储或反应在区块链上。",
       "edit_address": "编辑多宝箱地址",
       "tap_to_reveal": "点击展示内容",
-      "set_profile_picture": "设置档案资料图片",
+      "set_profile_picture": "设置头像图片",
       "select_nft": "选择数字藏品",
       "upload_photo": "上传照片",
-      "select_nft_to_profile": "为档案资料选择数字藏品",
-      "full_nft_description": "完整的数字藏品描述",
+      "select_nft_to_profile": "设置为头像",
+      "full_nft_description": "查看完整描述",
       "select_avatar": "选择头像",
       "wallet_name": "多宝箱昵称",
       "wallet_address": "多宝箱地址",
@@ -101,7 +101,7 @@
   },
   "token": {
     "action": {
-      "addToken": "添加web3数字权证类型",
+      "addToken": "添加数字权证类型",
       "add": "添加",
       "send": "发送",
       "sendTo": "发送到",
@@ -110,8 +110,8 @@
     },
     "receive": {
       "title": "接收",
-      "solana_warning": "本地址仅用于接收Miraland链上的原生web3数字权证(MLN)，Solarti系列派生web3数字权证或链上数字藏品",
-      "warning": "本地址仅用于接收Miraland链上的原生web3数字权证(MLN)或Solarti系列派生web3数字权证或链上数字藏品"
+      "miraland_warning": "本地址仅用于接收Miraland链上的原生数字权证(MLN)，Solarti数字权证或链上数字藏品",
+      "warning": "本地址仅用于接收Miraland链上的原生数字权证(MLN)或Solarti数字权证或链上数字藏品"
     },
     "send": {
       "address": {
@@ -153,14 +153,15 @@
     "clear_confirm": "我确认清除密码"
   },
   "wallet": {
-    "my_tokens": "我的web3数字权证",
-    "non_listed_tokens": "非挂牌交易web3数字权证",
+    "influence": "声望",
+    "my_tokens": "我的数字权证",
+    "non_listed_tokens": "非挂牌交易数字权证",
     "my_nfts": "我的数字藏品",
     "copied": "已拷贝到粘贴板！",
-    "create_wallet": "打造新的多宝箱",
+    "create_wallet": "制做新的多宝箱",
     "recover_wallet": "恢复先前多宝箱",
-    "select_token": "选择web3数字权证类型",
-    "new_token": "添加新web3数字权证类型",
+    "select_token": "选择数字权证类型",
+    "new_token": "添加新数字权证类型",
     "is_coming_soon": "敬请期待",
     "create": {
       "messageTitle": "请安全保存您的秘密短语！",
@@ -202,16 +203,16 @@
       "i_accept_terms_conditions": "🎗️点击我查看《用户协议》\n通过点击【恢复先前多宝箱】按钮\n我接受《用户协议》"
     },
     "onboarding": {
-      "titleOnboarded": "添加新多宝箱",
+      "titleOnboarded": "添加多宝箱",
       "titleWelcome": "欢迎",
       "select_blockchain": "选择区块链",
       "select_blockchain_text": "请务必谨记您即将创建的多宝箱只能在特定的区块链上生效使用，\n将来您或许可以在此添加或创建其他区块链的多宝箱。",
-      "title1": "欢迎使用QTware多宝箱!",
-      "content1": "为Web3/元宇宙和AI时代而生\n值得信赖的身份与价值载体",
+      "title1": "QTware多宝箱",
+      "content1": "蕴藏身份价值\n成就主权个人",
       "title2": "数字资产\n尽在掌握",
-      "content2": "您自己掌控所有虚拟资产\n我们无权对其存取访问",
+      "content2": "数字资产自己掌控\n他人只能望洋兴叹",
       "title3": "敬请关注",
-      "content3": "请关注我们",
+      "content3": "",
       "content3b": "@miracleland6",
       "blockchain": {
         "SOLANA": "SOLANA",
@@ -269,7 +270,7 @@
     "your_transactions": "我的交易",
     "recent_activity": "最近活动",
     "transaction_detail": "交易明细",
-    "detail_back": "返回",
+    "detail_back": "回到多宝箱首页",
     "view_transaction": "查看交易",
     "today": "今天",
     "yesterday": "昨天",
@@ -292,8 +293,8 @@
     "preview_sell": "销售预览"
   },
   "swap": {
-    "swap": "web3数字权证交换",
-    "swap_tokens": "交换web3数字权证",
+    "swap": "数字权证交换",
+    "swap_tokens": "交换数字权证",
     "you_send": "你发送",
     "enter_amount": "输入金额",
     "you_receive": "你收到",

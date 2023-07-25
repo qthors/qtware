@@ -13,12 +13,14 @@ import {
 } from './constants';
 import { cache, invalidate, CACHE_TYPES } from '../../utils/cache';
 // import { LOGOS } from '../../utils/wallet';
+import { globalStyles } from '../../component-library/Global/theme';
 import GlobalLayout from '../../component-library/Global/GlobalLayout';
 import CardButtonTransaction from '../../component-library/CardButton/CardButtonTransaction';
 import GlobalBackTitle from '../../component-library/Global/GlobalBackTitle';
 import GlobalText from '../../component-library/Global/GlobalText';
 import GlobalButton from '../../component-library/Global/GlobalButton';
 import GlobalImage from '../../component-library/Global/GlobalImage';
+import GlobalPadding from '../../component-library/Global/GlobalPadding';
 import GlobalSkeleton from '../../component-library/Global/GlobalSkeleton';
 // import AvatarImage from '../../component-library/Image/AvatarImage';
 import IconFailed from '../../assets/images/IconFailed.png';
@@ -142,8 +144,15 @@ const TransactionsListPage = ({ t }) => {
   return (
     <>
       <View style={styles.titleStyle}>
+        <GlobalPadding />
         <Header activeWallet={activeWallet} config={config} t={t} />
-        <GlobalBackTitle title={t('transactions.your_transactions')} />
+        {/* MI, vanilla title layout */}
+        {/* <GlobalBackTitle title={t('transactions.your_transactions')} /> */}
+        <View style={globalStyles.centered}>
+          <GlobalText type="headline2">
+            {t(`transactions.your_transactions`)}
+          </GlobalText>
+        </View>
       </View>
       <GlobalLayout>
         <GlobalLayout.Header>

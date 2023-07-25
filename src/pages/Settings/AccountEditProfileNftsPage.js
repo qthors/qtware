@@ -35,8 +35,8 @@ const AccountEditProfileNftsPage = ({ params, t }) => {
     });
   const onClick = nft =>
     navigate(ROUTES_SETTINGS_MAP.SETTINGS_ACCOUNT_EDIT_PROFILE_NFTS_DETAIL, {
-      address: nft.mint,
-      id: nft.mint,
+      address: nft.address.toBase58(),
+      id: nft.address.toBase58(),
     });
   return (
     <GlobalLayout>

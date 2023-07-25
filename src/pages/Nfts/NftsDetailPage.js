@@ -160,6 +160,7 @@ const NftsDetailPage = ({ params, t }) => {
     (loaded && (
       <GlobalLayout fullscreen>
         <GlobalLayout.Header>
+          <GlobalPadding />
           <Header activeWallet={activeWallet} config={config} t={t} />
           <GlobalBackTitle
             onBack={goToBack}

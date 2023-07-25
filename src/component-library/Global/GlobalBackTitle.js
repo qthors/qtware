@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: theme.gutters.paddingLG,
     // MI, added for better layout
-    marginTop: theme.gutters.padding4XL,
+    marginTop: theme.gutters.padding2XL,
   },
   nospace: {
     marginBottom: 0,
